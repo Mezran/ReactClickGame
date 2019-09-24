@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/ReactClickGame/static/css/main.80bb95c0.chunk.css",
-    "main.js": "/ReactClickGame/static/js/main.cfc6d819.chunk.js",
-    "main.js.map": "/ReactClickGame/static/js/main.cfc6d819.chunk.js.map",
+    "main.js": "/ReactClickGame/static/js/main.777c4f4c.chunk.js",
+    "main.js.map": "/ReactClickGame/static/js/main.777c4f4c.chunk.js.map",
     "runtime-main.js": "/ReactClickGame/static/js/runtime-main.ed8402c2.js",
     "runtime-main.js.map": "/ReactClickGame/static/js/runtime-main.ed8402c2.js.map",
     "static/js/2.9afb69b4.chunk.js": "/ReactClickGame/static/js/2.9afb69b4.chunk.js",
     "static/js/2.9afb69b4.chunk.js.map": "/ReactClickGame/static/js/2.9afb69b4.chunk.js.map",
     "index.html": "/ReactClickGame/index.html",
-    "precache-manifest.b50410b7d096067ab237867efab4700d.js": "/ReactClickGame/precache-manifest.b50410b7d096067ab237867efab4700d.js",
+    "precache-manifest.cda0bd1a37a68c4a0bd9323e0383bdf9.js": "/ReactClickGame/precache-manifest.cda0bd1a37a68c4a0bd9323e0383bdf9.js",
     "service-worker.js": "/ReactClickGame/service-worker.js",
     "static/css/main.80bb95c0.chunk.css.map": "/ReactClickGame/static/css/main.80bb95c0.chunk.css.map"
   }
