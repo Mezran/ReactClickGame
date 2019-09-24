@@ -68,7 +68,7 @@ class App extends React.Component {
   handleClick = name => {
     console.log(name);
 
-    const {clickedOn, userScore, userMaxScore} = this.state;
+    const {clickedOn, userScore, userMaxScore, cards} = this.state;
 
     if (clickedOn.includes(name)) {
       console.log("Game over, resetting game")
@@ -84,9 +84,15 @@ class App extends React.Component {
     } else {
       this.setState({
         clickedOn: [...clickedOn, name],
-        userScore: userScore + 1
+        userScore: userScore + 1,
+        cards: cards.sort(() => Math.random() -0.5)
       })
+      // randomize board.
     }
+
+    // function shuffle(array) {
+    //   array.sort(() => Math.random() - 0.5);
+    // }
 
     // this.setState({clickedOn: [...clickedOn, name]})
     // this.setState({userScore: userScore + 1})
@@ -110,13 +116,9 @@ class App extends React.Component {
         this.state.cards.map((person, i) => (
           <Image
           key={i}
-
           id={i}
-
           name = {person.name}
-
           link={person.photo}
-
           cB= {this.handleClick}
           />
         ))
