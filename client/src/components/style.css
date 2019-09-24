@@ -1,12 +1,10 @@
 .card {
-
   float: left;
-
 }
-.cardImage {
-object-fit: cover;
-object-position: top;
-    height: 200px;
-    width: 200px;
 
+.cardImage {
+  object-fit: cover;
+  object-position: top;
+  height: 200px;
+  width: 200px;
 }
