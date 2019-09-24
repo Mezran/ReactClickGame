@@ -61,17 +61,9 @@ class App extends React.Component {
     clickedOn: []
   }
 
-
-
-
-
   handleClick = name => {
-    console.log(name);
-
     const {clickedOn, userScore, userMaxScore, cards} = this.state;
-
     if (clickedOn.includes(name)) {
-      console.log("Game over, resetting game")
       this.setState({
         clickedOn: [],
         userScore: 0
@@ -87,18 +79,7 @@ class App extends React.Component {
         userScore: userScore + 1,
         cards: cards.sort(() => Math.random() -0.5)
       })
-      // randomize board.
     }
-
-    // function shuffle(array) {
-    //   array.sort(() => Math.random() - 0.5);
-    // }
-
-    // this.setState({clickedOn: [...clickedOn, name]})
-    // this.setState({userScore: userScore + 1})
-    // console.log(userScore);
-    console.log(clickedOn);
-
   }
 
   render () {
@@ -111,7 +92,6 @@ class App extends React.Component {
         <p>user score: {this.state.userScore}</p>
         <p>user max score: {this.state.userMaxScore}</p>
       </div>
-
       {this.state.cards.length ? (
         this.state.cards.map((person, i) => (
           <Image
@@ -128,9 +108,6 @@ class App extends React.Component {
       </>
     );
   }
-
 }
-
-
 
 export default App;

@@ -6,7 +6,7 @@ function Image (props) {
     <>
       <div className="card">
         <img src={props.link}
-        className="card-img-top"
+        className="card-img-top cardImage"
         alt="something goes here"
         onClick = {props.cB.bind(this, props.name)}/>
       </div>
