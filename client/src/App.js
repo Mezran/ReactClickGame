@@ -86,8 +86,8 @@ class App extends React.Component {
     return (
       <>
       <div className="jumbotron">
-        <h1 className="display-4">Hello, world!</h1>
-        <p className="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <h1 className="display-4">React Clicly Game!!!</h1>
+        <p className="lead">Try your best at clicking on each member of 'The Office', but only do it once!!</p>
         <hr className="my-4"/>
         <p>user score: {this.state.userScore}</p>
         <p>user max score: {this.state.userMaxScore}</p>
